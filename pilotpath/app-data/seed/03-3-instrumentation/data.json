@@ -1,0 +1,49 @@
+[
+  {
+    "id": "inst-1",
+    "question": "Which instrument uses pitot pressure and static pressure to indicate airspeed?",
+    "options": ["Altimeter", "Airspeed Indicator (ASI)", "Vertical Speed Indicator (VSI)", "Turn Coordinator"],
+    "correct_answer": "Airspeed Indicator (ASI)",
+    "explanation": "The Airspeed Indicator measures the difference between pitot (ram) pressure and static pressure. This differential pressure is converted to an airspeed reading via a calibrated scale.",
+    "chapter": "Pitot-Static Instruments"
+  },
+  {
+    "id": "inst-2",
+    "question": "A blocked static port will cause the altimeter to:",
+    "options": [
+      "Read zero",
+      "Freeze at the altitude where the blockage occurred",
+      "Over-read at higher altitudes",
+      "Under-read at all altitudes"
+    ],
+    "correct_answer": "Freeze at the altitude where the blockage occurred",
+    "explanation": "If the static port is blocked, the altimeter will freeze at the altitude at which the blockage occurred. As the aircraft climbs, the altimeter will no longer update and will remain stuck at the blocked altitude.",
+    "chapter": "Pitot-Static Instruments"
+  },
+  {
+    "id": "inst-3",
+    "question": "What type of gyroscope principle does the Directional Gyro (DI) use?",
+    "options": [
+      "Earth gyro (horizontal axis of spin)",
+      "Space gyro (rigidity in space)",
+      "Rate gyro (precession measurement)",
+      "Laser ring gyro"
+    ],
+    "correct_answer": "Space gyro (rigidity in space)",
+    "explanation": "The Directional Gyro (Heading Indicator) uses a space gyro — a gyro with its spin axis horizontal, which exhibits rigidity in space. This gives a stable directional reference but requires periodic resetting to the magnetic compass due to gyroscopic drift.",
+    "chapter": "Gyroscopic Instruments"
+  },
+  {
+    "id": "inst-4",
+    "question": "What is the purpose of the QNH setting on an altimeter?",
+    "options": [
+      "Sets the altimeter to read height above aerodrome elevation",
+      "Sets the altimeter to read height above the 1013.25 hPa pressure level",
+      "Sets the altimeter to read altitude above mean sea level",
+      "Calibrates the altimeter for temperature error"
+    ],
+    "correct_answer": "Sets the altimeter to read altitude above mean sea level",
+    "explanation": "QNH is the altimeter sub-scale setting that, when set, causes the altimeter to indicate altitude above mean sea level (AMSL). At an aerodrome with QNH set, the altimeter reads the aerodrome elevation when on the ground.",
+    "chapter": "Altimetry"
+  }
+]

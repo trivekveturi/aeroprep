@@ -1,0 +1,61 @@
+[
+  {
+    "id": "met-1",
+    "question": "According to ICAO Standard Atmosphere, what is the temperature at Mean Sea Level (MSL)?",
+    "options": ["+10°C", "+15°C", "+20°C", "+25°C"],
+    "correct_answer": "+15°C",
+    "explanation": "ICAO ISA defines MSL temperature as +15°C (288.15 K). This is the baseline from which the standard lapse rate of 6.5°C per 1000 m is applied.",
+    "chapter": "ICAO Standard Atmosphere"
+  },
+  {
+    "id": "met-2",
+    "question": "What is the standard lapse rate in the troposphere according to ISA?",
+    "options": ["2°C per 1000 ft", "6.5°C per 1000 m", "3°C per 1000 ft", "5°C per 1000 m"],
+    "correct_answer": "6.5°C per 1000 m",
+    "explanation": "The ISA standard temperature lapse rate in the troposphere is 6.5°C per 1000 metres (approximately 2°C per 1000 ft). It is applied from MSL up to the tropopause at 11 km.",
+    "chapter": "ICAO Standard Atmosphere",
+    "formula": "Temp at altitude = 15°C − (altitude_in_km × 6.5°C)"
+  },
+  {
+    "id": "met-3",
+    "question": "At what altitude does the tropopause occur in the ICAO Standard Atmosphere?",
+    "options": ["8 km / 26,247 ft", "11 km / 36,089 ft", "15 km / 49,213 ft", "20 km / 65,617 ft"],
+    "correct_answer": "11 km / 36,089 ft",
+    "explanation": "The ICAO ISA tropopause is at 11 km (36,089 ft). Above this altitude, temperature remains constant at −56.5°C up to 20 km (the lower stratosphere).",
+    "chapter": "ICAO Standard Atmosphere"
+  },
+  {
+    "id": "met-4",
+    "question": "A METAR reports wind as 27015KT. What does this mean?",
+    "options": [
+      "Wind from 270° at 15 knots",
+      "Wind towards 270° at 15 knots",
+      "Wind from 270° at 15 km/h",
+      "Wind variable at 15 knots from sector 270°"
+    ],
+    "correct_answer": "Wind from 270° at 15 knots",
+    "explanation": "In METAR, wind is always reported as the direction FROM which the wind blows (True North reference on aerodromes using magnetic on most). 27015KT = wind from 270° (west) at 15 knots.",
+    "chapter": "METARs & TAFs"
+  },
+  {
+    "id": "met-5",
+    "question": "What cloud type is associated with severe in-flight icing and thunderstorm activity?",
+    "options": ["Cirrus", "Stratus", "Cumulonimbus", "Altocumulus"],
+    "correct_answer": "Cumulonimbus",
+    "explanation": "Cumulonimbus (Cb) clouds are associated with severe turbulence, in-flight icing, hail, and lightning. ICAO requires pilots to avoid Cb clouds by at least 20 NM.",
+    "chapter": "Weather Hazards"
+  },
+  {
+    "id": "met-6",
+    "question": "What is the dew point temperature in relation to air temperature?",
+    "options": [
+      "Always higher than air temperature",
+      "The temperature at which air becomes saturated",
+      "The temperature at which precipitation occurs",
+      "Half the air temperature"
+    ],
+    "correct_answer": "The temperature at which air becomes saturated",
+    "explanation": "Dew point is the temperature to which air must be cooled (at constant pressure and humidity) for saturation to occur. When air temperature equals dew point, relative humidity = 100% and fog/cloud formation begins.",
+    "chapter": "Clouds & Precipitation"
+  }
+]

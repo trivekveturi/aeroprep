@@ -1,0 +1,5 @@
+[
+  { "id": "01-meteorology",       "name": "Meteorology",     "icon": "🌦️", "color": "#00D4AA" },
+  { "id": "02-air-regulation",    "name": "Air Regulations", "icon": "⚖️",  "color": "#F5A623" },
+  { "id": "03-3-instrumentation", "name": "Instrumentation", "icon": "⚙️",  "color": "#4FB3E8" }
+]

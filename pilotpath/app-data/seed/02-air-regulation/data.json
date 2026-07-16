@@ -1,0 +1,44 @@
+[
+  {
+    "id": "reg-1",
+    "question": "Who is responsible for issuing a NOTAM?",
+    "options": [
+      "The airline operating the flight",
+      "The pilot-in-command",
+      "Aviation authority / ANS provider",
+      "ATC tower only"
+    ],
+    "correct_answer": "Aviation authority / ANS provider",
+    "explanation": "A NOTAM (Notice to Air Missions) is issued by the relevant aviation authority or Air Navigation Service (ANS) provider to warn pilots of hazards, changes to aerodrome conditions, navigation aids, airspace restrictions, etc.",
+    "chapter": "ATC & NOTAMs"
+  },
+  {
+    "id": "reg-2",
+    "question": "Under DGCA rules, what is the minimum age to hold a Commercial Pilot Licence (CPL)?",
+    "options": ["17 years", "18 years", "21 years", "25 years"],
+    "correct_answer": "18 years",
+    "explanation": "Under Indian aviation regulations (CAR Section 7), the minimum age for issue of a Commercial Pilot Licence (CPL) is 18 years. A Student Pilot Licence (SPL) can be issued from 16 years.",
+    "chapter": "Licencing"
+  },
+  {
+    "id": "reg-3",
+    "question": "What document defines the standards for airworthiness of aircraft registered in India?",
+    "options": [
+      "ICAO Annex 2",
+      "Aircraft Act 1934 and Aircraft Rules 1937",
+      "DGCA CAR Section 2",
+      "Chicago Convention Article 31"
+    ],
+    "correct_answer": "Aircraft Act 1934 and Aircraft Rules 1937",
+    "explanation": "In India, the Aircraft Act 1934 and Aircraft Rules 1937 (as amended) form the primary legal framework governing airworthiness. DGCA CARs are issued under the authority of these rules.",
+    "chapter": "Indian Aviation Law"
+  },
+  {
+    "id": "reg-4",
+    "question": "An aircraft must carry a Certificate of Airworthiness (C of A). How often must it be renewed for transport category aircraft in India?",
+    "options": ["Every 6 months", "Annually", "Every 2 years", "Every 5 years"],
+    "correct_answer": "Annually",
+    "explanation": "A Certificate of Airworthiness for transport category aircraft in India is typically valid for one year and must be renewed after satisfactory completion of the annual airworthiness review.",
+    "chapter": "Airworthiness"
+  }
+]
